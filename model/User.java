@@ -4,5 +4,5 @@ public class User {
     private int id;
     private String name;
 
-    // Getters and setters
+    //  Use of Getters and setters to take input and show the output
 }
