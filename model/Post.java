@@ -1,9 +1,10 @@
-package com.example.socialmedia.model;
+package com.example.social.model;
 
 public class Post {
     private int id;
     private int userId;
-    private String timestamp;
+    private String content;
 
-    // Getters and setters
+    // Again we use Getters and setters for input and output in java
 }
+
