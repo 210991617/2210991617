@@ -1,7 +1,8 @@
-package com.example.socialmedia.controller;
 
-import com.example.socialmedia.model.Post;
-import com.example.socialmedia.service.AnalyticsService;
+package com.example.social.controller;
+
+import com.example.social.model.Post;
+import com.example.social.service.AnalyticsService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -24,6 +25,7 @@ public class AnalyticsController {
 
     @GetMapping("/posts")
     public List<Post> getPosts(@RequestParam String type) {
-        return service.getPostsByType(type);
+        return service.getPosts(type);
     }
 }
+
